@@ -9,16 +9,16 @@ DEveloped at : Bell laboratories
 Purpose : To develop the UNIX operating system
  
 ## Features of C Language : 
-  -Simple and easy to learn
-  -Fast execution speed
-  -Portable (runs on different operating systems)
-  -Structured programming language
-  -Supports functions (modular programming)
-  -Rich set of built-in operators
-  -Efficient memory management using pointers
-  -Supports recursion
-  -Dynamic memory allocation
-  -Middle-level language (supports both high-level and low-level programming
+  *Simple and easy to learn
+  *Fast execution speed
+  *Portable (runs on different operating systems)
+  *Structured programming language
+  *Supports functions (modular programming)
+  *Rich set of built-in operators
+  *Efficient memory management using pointers
+  *Supports recursion
+  *Dynamic memory allocation
+  *Middle-level language (supports both high-level and low-level programming
 
 ## Toolchain in C :
 
