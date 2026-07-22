@@ -12,13 +12,13 @@
 
 #include<stdio.h>
 
-int Display(int iNo, int iFrequency)
+void Display(int iNo, int iFrequency)
 {
 	int i = 0;
 // 	int i = iFrequency;
     // int i = iNo;
 	
-	for(i = 1; i <= iFrequency; i++)
+	for(i = 1; i < iFrequency; i++)
 	{
 		printf("%d ",iNo);	
 	}
