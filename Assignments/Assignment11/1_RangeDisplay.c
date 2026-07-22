@@ -15,19 +15,14 @@ Output :  -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 0 1 2*/
 
 void RangeDisplay(int iStart, int iEnd)
 {   
-    if(iStart <= 0)
+    if(iStart >= iEnd)
     {
-        iStart = -iStart;
+        printf("Invalid range");
     }
     
     for(iStart; iStart <= iEnd; iStart++)
     {
         printf("%d ",iStart);
-    }
-    
-    if(iStart > iEnd)
-    {
-        printf("Invalid range");
     }
 }
 
