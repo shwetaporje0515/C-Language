@@ -9,16 +9,13 @@ void DisplayFactor(int iNo)
         iNo = -iNo;
     }
     
-    for(i = 1; i<=iNo; i++)
+    for(i = 1; i<=iNo/2; i++)
     {
         if(iNo % i == 0)
         {
-            int a = i;
-            if(a % 2 == 0)
-            {
-                printf("%d\n",a);
-            }
+            printf("%d\n",i);
         }
+        
     }
 }
 
