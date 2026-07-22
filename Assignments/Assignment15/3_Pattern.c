@@ -14,7 +14,7 @@ Output :
 
 void Pattern(int iRow, int iCol)
 {
-    for(int i = iRow; i>=1; i--)
+    for(int i = 1; i<=iRow; i++)
     {
         for(int j = iCol; j>=1; j--)
         {
