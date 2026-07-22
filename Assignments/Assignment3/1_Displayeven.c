@@ -2,19 +2,19 @@
 
 void DisplayEven(int iNo)
 {
-    int i = 0;
+    
     
     if (iNo <= 0)
     {
         return;
     }
     
-    for(i = 1; i <= (iNo * 2); i++)
+    int iEven = 0
+    while(iNo > 0)
     {
-        if(i % 2 == 0)
-        {
-            printf("%d\n",i);
-        }
+        iEven = iEven+2;
+        printf("%d\n",iEven);
+        iNo--;
     }
 }
 
