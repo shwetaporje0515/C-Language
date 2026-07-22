@@ -15,13 +15,8 @@ Output :  Invalid range */
 
 int RangeSumEven(int iStart, int iEnd)
 {   
-    if(iStart < 0 )
-    {
-        iStart = -iStart;
-        printf("Invalid input");
-    }
     
-    if(iStart > iEnd) 
+    if(iStart >= iEnd) 
     {
         printf("Invalid input");
     }
