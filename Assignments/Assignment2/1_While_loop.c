@@ -4,8 +4,8 @@
 
 void Display(int iNo)
 {
-	//int iCnt = 0;
-	int iCnt =1;
+	int iCnt = 0;
+	// int iCnt =1;
 	while(iCnt < iNo)
 	{
 		printf("*");
