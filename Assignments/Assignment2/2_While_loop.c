@@ -5,8 +5,8 @@
 
 void Display(int iNo)
 {
-	int iCnt = 0;
-	while(iCnt < iNo)
+	// int iCnt = 0;
+	while(iNo > 0)
 	{
 		printf("*");
 		iNo--;
