@@ -19,7 +19,6 @@ int RangeSum(int iStart, int iEnd)
 {   
     if(iStart < 0 )
     {
-        iStart = -iStart;
         printf("Invalid input");
     }
     
