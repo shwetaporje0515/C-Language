@@ -16,7 +16,7 @@ Output :  Invalid range*/
 
 void RangeDisplayEven(int iStart, int iEnd)
 {   
-    if(iStart >= iEnd)
+    if(iStart > iEnd)
     {
         printf("Invalid range");
     }
