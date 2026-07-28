@@ -36,19 +36,15 @@ BOOL ChkZero(int iNo)
     {
         iDigit = iNo % 10;
         // printf("%d\n",iDigit);
-        
+        iNo = iNo / 10;
+     
         if(iDigit == 0)
         {
             return TRUE;    
         }
-        else
-        {
-            return FALSE;
-        }
-        
-        iNo = iNo / 10;
     }
-
+    return FALSE;
+      
 }
 
 int main()
