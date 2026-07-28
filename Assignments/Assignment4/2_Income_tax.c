@@ -23,20 +23,23 @@ float IncomeTax(int iAmount)
 	}
 	else if(iAmount < 1000000 && iAmount > 500000)
 	{	
-	    float iAmount1 = (iAmount/100) * 10;
+	    float iAmount1 = (iAmount - 500000) * 0.10;
 		printf("You have to pay the Income tax of  : ");
 		printf("%f",iAmount1);
 	}
 	else if(iAmount < 2000000 && iAmount > 1000000)
 	{  
-	    float iAmount2 = (iAmount/100) * 20;
+	    float iAmount2 = (500000 * 0.10) + ((iAmount - 1000000) * 0.20);
+	
 		printf("You have to pay the Income tax of : ");
 		printf("%f",iAmount2);
 
 	}
 	else if(iAmount > 2000000)
 	{
-	    float iAmount3 = (iAmount/100) * 30;
+	    float iAmount3 = (500000 * 0.10) + (1000000 * 0.20) + ((iAmount - 2000000) * 0.30);
+	   
+
 		printf("You have to pay the Income tax of : ");
 		printf("%f",iAmount3);
 	}
