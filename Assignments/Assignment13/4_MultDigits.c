@@ -23,12 +23,10 @@ int MultDigit(int iNo)
     {
         iDigit = iNo % 10;
         
-        if(iDigit <= 0)
+        if(iDigit != 0)
         {
-            iDigit = -iDigit;
+             iMul = iMul * iDigit ;
         }
-        
-        iMul = iMul * iDigit ;
         
         iNo = iNo / 10;
     }
