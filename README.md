@@ -42,3 +42,31 @@ Purpose : To develop the UNIX operating system
 ## User - defined Datatypes : 
     The data types which are created depending on the need / requirement of user
     They are : Structure, Union, Ennumeration
+
+## Array :
+    Array is considered as a Derived Datatype, it is the collection of homogeneous(same) elements.
+    There are 3 types of array : 
+    1-D array, 2-D array, Multidimentional array
+
+## Pointer(*) :
+    Pointer is considered as a Derived Datatype, It is a variable which stores the address.
+
+## Function : 
+    Function is also a derived datatype. It is a block of code which performs a specific task, without repeating the code again and again we call it whenever we need.
+    There are two types of Functions : 
+    1. Library functions : Functions which are defined previously.
+    2. User-defined functions : Functions which are defined depending on user's need.
+
+## Struct : 
+    Struct is a user-defined datatype
+    It stores heterogeneous types of data in it.
+    Memory is allocated to each datatype after creating the object of that struct.
+
+## Union :
+    Union is similar as struct. it is also a user-defined datatype
+    The difference is union allocates the memory to the large datatype only.
+
+## Enumeration : 
+    Enumeration (enum) is also considered as a user-defined datatype.
+    It is used to give the name to the integral constant.
+    After giving name to integral constant our program looks more readable.
