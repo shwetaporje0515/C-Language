@@ -37,11 +37,10 @@ Purpose : To develop the UNIX operating system
 
 ## Derived Datatypes :
     The data types which are created from other datatype
-    They are : Array, Pointer, Function
-
-## User - defined Datatypes : 
-    The data types which are created depending on the need / requirement of user
-    They are : Structure, Union, Ennumeration
+    They are :
+     * Array
+     * Pointer
+     * Function
 
 ## Array :
     Array is considered as a Derived Datatype, it is the collection of homogeneous(same) elements.
@@ -56,6 +55,13 @@ Purpose : To develop the UNIX operating system
     There are two types of Functions : 
     1. Library functions : Functions which are defined previously.
     2. User-defined functions : Functions which are defined depending on user's need.
+
+## User - defined Datatypes : 
+    The data types which are created depending on the need / requirement of user
+    They are : 
+    * Structure
+    * Union
+    * Enumeration
 
 ## Struct : 
     Struct is a user-defined datatype
