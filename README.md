@@ -77,7 +77,7 @@ Purpose : To develop the UNIX operating system
     It is used to give the name to the integral constant.
     After giving name to integral constant our program looks more readable.
 
-## Operators in C:
+## Operators in C :
     Operators are symbol used to perform operations on variable and values.
 
    ## Types of operators : 
