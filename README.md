@@ -76,3 +76,16 @@ Purpose : To develop the UNIX operating system
     Enumeration (enum) is also considered as a user-defined datatype.
     It is used to give the name to the integral constant.
     After giving name to integral constant our program looks more readable.
+
+## Operators in C:
+    Operators are symbol used to perform operations on variable and values.
+
+   ## Types of operators : 
+     * Arithmetic
+     * Relational
+     * Logical
+     * Assignment
+     * Conditional
+     * Increment / Decrement
+     * Bitwise
+     * Sizeof
