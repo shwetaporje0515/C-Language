@@ -81,11 +81,12 @@ Purpose : To develop the UNIX operating system
     Operators are symbol used to perform operations on variable and values.
 
    ## Types of operators : 
-     * Arithmetic
-     * Relational
-     * Logical
-     * Assignment
-     * Conditional
-     * Increment / Decrement
-     * Bitwise
-     * Sizeof
+     * Arithmetic : Used for mathematical calculations
+     * Relational : Used to compare two va;ues
+     * Logical : Used to combine condition
+     * Assignment : Used to assign values
+     * Conditional : Used as a shortform of IF--- ELSE
+     * Increment / Decrement : To add value by 1 and to subtract value by 1
+     * Bitwise : Used to perform operations on binary(bits).
+     * Sizeof : Used to find size of datatypeor variable
+
