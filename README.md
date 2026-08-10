@@ -90,3 +90,10 @@ Purpose : To develop the UNIX operating system
      * Bitwise : Used to perform operations on binary(bits).
      * Sizeof : Used to find size of datatypeor variable
 
+## If statement :
+
+## If Else Statement : 
+
+## If Else elif Satement :
+
+## LOOPS :
