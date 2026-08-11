@@ -91,9 +91,26 @@ Purpose : To develop the UNIX operating system
      * Sizeof : Used to find size of datatypeor variable
 
 ## If statement :
+    If is used to check condition. If condition is TRUE, the code inside of 'IF' will run.
 
 ## If Else Statement : 
+    If...Else checks a condition.
+    if the condition is TRUE, 'IF' block runs otherwise, 'ELSE' block runs
 
-## If Else elif Satement :
+## Elseif Statement :
+    Elseif is used to check more than one condition 
 
 ## LOOPS :
+    - FOR loop
+    - WHILE loop
+    - DO WHILE loop
+
+## FOR Loop :
+    - A For loop repeats the code, a fix number of times
+
+## WHILE Loop :
+    - A While loop repeats the code while the condition is TRUE
+
+## DO WHILE loop :
+    - A DO while loop is used to repeat a block of code at least one time, even if condition is FALSE
+    
