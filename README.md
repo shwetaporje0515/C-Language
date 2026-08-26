@@ -113,4 +113,91 @@ Purpose : To develop the UNIX operating system
 
 ## DO WHILE loop :
     - A DO while loop is used to repeat a block of code at least one time, even if condition is FALSE
-    
+
+## Nested For loop :
+    - A nested For loop means one for loop inside another For loop
+    - syntax : 
+          for(condition)
+          {
+            for(condition)
+            {
+               //code
+            }
+          }
+
+## String :
+       - A string is a collection of characters enclosed in double quotes(" ") 
+       - In C, a string is stored in a character array(char) and ends with a special character - '/0' (null character)
+
+
+## Variable :
+       - A variable is a name that stores the value.
+       - Value can change, which is why it is called as variable
+
+       - There are Two types of variable :
+           1. Global variable
+           2. Local variable
+
+       1. Global variable :
+          - A Global variable is a variable that is created outside all functions
+          - It can be used throughout the program
+
+       2. Local variable :
+          - A Local variable is a variable that is created inside a function or block
+          - It can only used within that function or block
+
+## Switch Case :
+    - A Switch case is a decision making statement that checks the value of a variable and executes the matching block of code
+    - Syntax : 
+          switch(variable)
+          {
+             case value1:
+             //code
+             break
+
+             case value2
+             //code
+             break
+
+             default
+             //code
+          }
+
+
+## Dynamic memory allocation :
+     Dynamic memory allocation means allocating memory while the program is running
+
+     Types of memory allocation :
+     1. malloc
+     2. calloc
+     3. realloc
+
+     1. malloc :
+        - malloc(memory allocation)
+        - malloc allocates a block of memory at runtime the memory contains garbage value
+        -syntax : 
+           pointer = (data-type*)malloc(number_of_elements * sizeof(data_type));
+
+     2. calloc :
+        - calloc (contiguous allocation)
+        - calloc allocates memory and initializes all value to zero
+        - syntax :
+            pointer = (data-type*)calloc(number_of_elements * sizeof(data_type));
+
+     3. realloc :
+        - realloc (re-allocation)
+        - realloc changes the size of already allocated memory
+        - syntax :
+             pointer = (data-type*)calloc(pounter,new_size);
+
+## Recursion :
+      - Recursion is a programming technique where a function calls itself to solve a problem by breaking it into smaller subproblems
+      - Structure of a recursion function
+         1. Base case : stops the recursion
+         2. Recursive case : Calls the function itself with a smaller or simpler input
+
+      - Types of recursion :
+        1. Direct
+        2. Indirect
+        3. Tail
+        4. Non-tail
